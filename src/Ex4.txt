@@ -1,0 +1,4 @@
+Die Methode setDefaultButton() wird verwendet, um eine Schaltfläche als Standard-Button festzulegen, der ausgelöst wird,
+wenn die Eingabetaste gedrückt wird. In der Zeile this.getRootPane().setDefaultButton(jButtonOK); wird der Button
+jButtonOK dem Root-Pane als Standard-Button zugewiesen. Dadurch wird sichergestellt, dass ein Klick auf die Eingabetaste
+denselben Effekt hat wie ein Klick auf jButtonOK, unabhängig vom aktuellen Fokus im Fenster.

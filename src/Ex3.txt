@@ -1,0 +1,3 @@
+Die Methode requestFocusInWindow() in der Klasse JComponent versucht, den Eingabefokus auf die Komponente zu setzen,
+sofern sie im aktuellen Fenster sichtbar ist. Sie gibt true zurück, wenn der Fokus erfolgreich gesetzt wurde, und false,
+wenn dies nicht möglich war. Die Methode hat jedoch keine Wirkung, wenn die Komponente nicht sichtbar ist.
